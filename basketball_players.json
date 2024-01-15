@@ -1,0 +1,30 @@
+[
+    {
+        "Player_Id": "1",
+        "Player_Name": "Stephen Curry",
+        "Position": "Point Guard",
+        "Height": "165 cm",
+        "Jersey_Number": "30"
+    },
+    {
+        "Player_Id": "123",
+        "Player_Name": "Jethro",
+        "Position": "Center",
+        "Height": "213 cm",
+        "Jersey_Number": "12312"
+    },
+    {
+        "Player_Id": "1",
+        "Player_Name": "Stephen Curry",
+        "Position": "Point Guard",
+        "Height": "165 cm",
+        "Jersey_Number": "30"
+    },
+    {
+        "Player_Id": "123",
+        "Player_Name": "Jethro",
+        "Position": "Center",
+        "Height": "213 cm",
+        "Jersey_Number": "12312"
+    }
+]
