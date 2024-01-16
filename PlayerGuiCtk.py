@@ -25,7 +25,7 @@ class PlayerGuiCtk(customtkinter.CTk):
     def validate_id_input(self, value):
         return value.isdigit() or (value == "" and self.id_entry.get().isdigit())
 
-    def __init__(self, dataBase=PlayerDbSqlite('BasketballPlayer_Id.db')):
+    def __init__(self, dataBase=PlayerDbSqlite('')):
         super().__init__()
         self.db = dataBase
 
