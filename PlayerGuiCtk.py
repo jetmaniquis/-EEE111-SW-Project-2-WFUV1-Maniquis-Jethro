@@ -30,7 +30,7 @@ class PlayerGuiCtk(customtkinter.CTk):
         self.db = dataBase
 
         # Load background image
-        bg_image = Image.open("C:\\Users\\Jethro\\Desktop\\SW\\bballbg.jpg")
+        bg_image = Image.open("bballbg.jpg")
         bg_image = bg_image.resize((1500, 1000), Image.Resampling.LANCZOS)  # Use LANCZOS for antialiasing
         self.bg_photo = ImageTk.PhotoImage(bg_image)
 
