@@ -38,7 +38,6 @@ class PlayerGuiCtk(customtkinter.CTk):
         self.bg_label = tk.Label(self, image=self.bg_photo)
         self.bg_label.place(relwidth=1, relheight=1)
 
-        # Create an instance of PlayerDbEntry with default values
         self.player_entry = PlayerDbEntry()
 
         self.title('Basketball Player Management System')
@@ -49,8 +48,6 @@ class PlayerGuiCtk(customtkinter.CTk):
         self.font1 = ('Comic Sans MS', 25, 'bold')  # Public Sans font
         self.font2 = ('Public Sans', 15, 'bold')  # Public Sans font
 
-        
- # Styling enhancements
         self.style = ttk.Style(self)
         self.style.theme_use('clam')
 
@@ -102,7 +99,7 @@ class PlayerGuiCtk(customtkinter.CTk):
 
     
 
-        # Rest of your GUI code
+        
         self.add_button = self.newCtkButton(text='Add Player',
                                 onClickHandler=self.add_entry,
                                 fgColor='#90EE90',  # Black text
