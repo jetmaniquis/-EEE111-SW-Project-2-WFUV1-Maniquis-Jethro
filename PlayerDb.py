@@ -69,7 +69,7 @@ class PlayerDb:
                 next(reader)  # Skip header row
                 for row in reader:
                     player_id, player_name, player_position, player_height, jersey_number = row
-                    # Add logic to handle the data, e.g., insert into your database
+                    
                     self.insert_player(player_id, player_name, player_position, player_height, jersey_number)
             print('Data imported successfully')
             return True
